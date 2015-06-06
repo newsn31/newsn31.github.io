@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <style>
+  @font-face {
+      font-family: "Redacted";
+      src: url("../fonts/web/redacted-regular.eot");
+      src: url("../fonts/web/redacted-regular.woff2") format("woff2"),
+           url("../fonts/web/redacted-regular.woff") format("woff"),
+           url("../fonts/web/redacted-regular.otf") format("opentype"),
+           url("../fonts/web/redacted-regular.svg#filename") format("svg");
+  }
+
+  @font-face {
+      font-family: "Redacted Script";
+      src: url("../fonts/web/redacted-script-regular.eot");
+      src: url("../fonts/web/redacted-script-regular.woff2") format("woff2"),
+           url("../fonts/web/redacted-script-regular.woff") format("woff"),
+           url("../fonts/web/redacted-script-regular.otf") format("opentype"),
+           url("../fonts/web/redacted-script-regular.svg#filename") format("svg");
+  }
+  .prototype {
+      font-family: "Redacted";
+      color: #999;
+  }
+
+  .prototype-script {
+      font-family: "Redacted Script";
+      color: #999;
+  }
+
+  .page-empty {
+    text-align: center;
+    /* Uncomment this for an image background
+    background-image: url("URL of background");
+    */
+    /* Uncomment this for background color
+    background-color: #000000;
+    */
+  }
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    width: 100%;
+    line-height: 1;
+  }
+  .item{
+    background: clear;
+    text-align: center;
+    height: auto;
+  }
+  .carousel{
+    background: clear;
+  }
+  hr {
+    border-color:black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  </style>
+
+  <title>2 Column Layout</title>
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section>
+  <div class="container-fluid row">
+    <div class="col-sm-6 col-md-6">
+      <a href="#"><img src="http://placehold.it/570x1080/282828/ffffff&text=570x1080+Image1" class="img-responsive" alt=""></a>
+    </div>
+    <div class="col-sm-4 col-md-4 col-sm-offset-1 col-md-offset-1"><br>
+      <h1 class="text-center">Header</h3>
+      <p class="prototype-script">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        Lorem ipsum dolor sit amet, consectetur adipiscing anim id est laborum.
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing anim
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
