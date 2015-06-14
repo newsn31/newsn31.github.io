@@ -1,6 +1,8 @@
 ---
-layout: null
-# Only the main Sass file needs front matter (the dashes are enough)
+layout: default
+title:  "Main SCSS File!"
+date:   2015-06-14 16:40:49
+categories: jekyll update
 ---
 @charset "utf-8";
 
@@ -38,16 +40,16 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+"base",
+"layout",
+"syntax-highlighting"
 ;
