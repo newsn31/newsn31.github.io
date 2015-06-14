@@ -1,4 +1,8 @@
 ---
+layout: default
+title:  "Main SCSS File!"
+date:   2015-06-14 16:40:49
+categories: jekyll update
 ---
 @charset "utf-8";
 
