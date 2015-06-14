@@ -29,6 +29,16 @@
       color: #999;
     }
 
+    .page-empty {
+      text-align: center;
+      /* Uncomment this for an image background
+    background-image: url("URL of background");
+    */
+      /* Uncomment this for background color
+    background-color: #000000;
+    */
+    }
+
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
       display: block;
@@ -48,6 +58,7 @@
     }
 
     hr {
+      visibility: hidden;
       border-color: black;
       width: 60%;
       margin-left: auto;
@@ -58,44 +69,72 @@
     img {
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 30px;
+    }
+
+    .nopadding {
+      padding: 0 margin: 0
     }
   </style>
 
   <title>Bootstrap 101 Template</title>
 
   <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Internet explorer-->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
+  <![endif]-->
 </head>
 
 <body>
-
   <section>
-    <div class="container-fluid row">
+    <div class="container">
+      <div class="col-md-7 col-xs-12 col-sm-12 container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#">
+              <img style="margin-bottom:30px;" class="img-responsive" src="ihr_level1_lighttoys_ledaccessories_665x665.jpg" alt="">
+            </a>
+          </div>
+        </div>
 
-      <div class="col-xs-12 col-md-6">
-        <a href="#">
-          <img src="holder.js/570x1170/?text=570x1170 Image #1&theme=social&auto=yes" class="img-responsive" alt="">
-        </a>
+        <div style="padding-left:0px; padding-right:0px;" class="col-md-12">
+        <div class="row">
+
+          <a href="#">
+            <img style="margin-bottom:30px;" class="col-xs-12 col-sm-12 col-md-6 img-responsive" src="ihr_level1_lighttoys_orbits_333x333.jpg" alt="">
+          </a>
+
+
+          <a href="#">
+            <img style="margin-bottom:30px;" class="col-xs-12 col-sm-12 col-md-6 img-responsive" src="ihr_level1_lighttoys_poi_333x333.jpg" alt="">
+          </a>
+        </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-6">
+
+      <div class="col-md-5 col-sm-12 col-xs-12 col-lg-5">
+
         <a href="#">
-          <img src="holder.js/570x1170/?text=570x1170 Image #1&theme=social&auto=yes" class="img-responsive" alt="">
+          <img style="margin-bottom:32px;" class="col-xs-12 col-sm-12 col-md-12 img-responsive" src="ihr_level1_lighttoys_glovingsupplies_415x468.jpg" alt="">
         </a>
+
+
+        <a href="#">
+          <img style="margin-bottom:30px;" class="col-xs-12 col-sm-12 col-md-12 img-responsive" src="ihr_level1_lighttoys_ledhoops_415x468.jpg" alt="">
+        </a>
+
       </div>
     </div>
   </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
