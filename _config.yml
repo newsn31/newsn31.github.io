@@ -2,8 +2,8 @@
 title: Quang Vo's Website
 email: quang.vo31@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, this is my Jekyll Blog.  This is where you can can read about me musing about my day and random things.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+  Hi, this is my Jekyll Blog.  This is where you can read about me musing about my day and random things.
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://newsn31.github.io" # the base hostname & protocol for your site
 github_username:  newsn31
 
