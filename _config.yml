@@ -1,6 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 5 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
@@ -12,17 +12,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Quang Vo's Website
 
-description: Stylish Jekyll Theme
+description: Quang Vo's Website and Blog
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
+  name: Quang Vo
+  email: quang.vo31@gmail.com
+  github: newsn31
   twitter: dbtek
   pinterest: asd123
   linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: Software Engineer
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
