@@ -2,11 +2,11 @@
 layout: page
 tagline:
 ---
-
+<h1>Recent Posts</h1>
 {% for post in paginator.posts %}
 
 <article class="home">
-<h1>Recent Posts</h1>
+
   <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
     {{ post.date | date: "%B" }}
