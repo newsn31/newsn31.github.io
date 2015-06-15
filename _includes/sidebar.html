@@ -1,11 +1,39 @@
 <!-- sidebar.html -->
-<h1 class="text-center"><a style="color: white;" href="http://newsn31.github.io/"><strong>Quang Vo's Website</strong></a></h1>
+<h1 class="text-center">
+	<a style="color: white;" href="http://newsn31.github.io/">
+		<strong>Quang Vo's Website</strong>
+	</a>
+</h1>
 <br>
 <ul class="list-unstyled text-center text-uppercase">
-	<li><h3><a style="color: white;" href="http://newsn31.github.io/aboutMe/"><strong>ABOUT ME</strong></a></h3>
-	<li><h3><a style="color: white;" href="https://drive.google.com/open?id=0ByPTWkkNnPo_NTdOLXRta21QUGc&authuser=0" target="_blank"><strong>RESUME</strong></a></h3>
-	<li><h3><a style="color: white;" href="http://newsn31.github.io/portfolio/"><strong>PORTFOLIO</strong></a></h3>
-	<li><h3><a style="color: white;" href="http://newsn31.github.io/aboutTheSite/"><strong>ABOUT THE SITE</strong></a></h3>
+	<li>
+		<h3>
+			<a style="color: white;" href="http://newsn31.github.io/aboutMe/">
+				<strong>ABOUT ME</strong>
+			</a>
+		</h3>
+	</li>
+	<li>
+		<h3>
+			<a style="color: white;" href="https://drive.google.com/open?id=0ByPTWkkNnPo_NTdOLXRta21QUGc&authuser=0" target="_blank">
+				<strong>RESUME</strong>
+			</a>
+		</h3>
+	</li>
+	<li>
+		<h3>
+			<a style="color: white;" href="http://newsn31.github.io/portfolio/">
+				<strong>PORTFOLIO</strong>
+			</a>
+		</h3>
+	</li>
+	<li>
+		<h3>
+			<a style="color: white;" href="http://newsn31.github.io/aboutTheSite/">
+				<strong>ABOUT THE SITE</strong>
+			</a>
+		</h3>
+	</li>
 	<br>
 </ul>
 
@@ -17,9 +45,8 @@
 {% endif %}
 
 <div id="bio" class="text-center">
-{{ site.author.disclaimer }}
-<br>
-<img style="margin: 0 auto;" src="https://travis-ci.org/newsn31/newsn31.github.io.svg">
+	{{ site.author.disclaimer }}
+	<img style="margin: 0 auto;" src="https://travis-ci.org/newsn31/newsn31.github.io.svg">
 </div>
 
 
@@ -33,15 +60,13 @@
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.twitter %}
+		{% endif %} {% if site.author.twitter %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
 				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.email %}
+		{% endif %} {% if site.author.email %}
 		<li>
 			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope fa-lg"></i>
@@ -61,19 +86,18 @@
 				<i class="fa fa-pinterest fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
+		{% endif %} {% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
 				<i class="fa fa-youtube fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
-<!--		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-				<i class="fa fa-rss fa-lg"></i>
-			</a>
-		</li>-->
-	</ul>
+		<!--		<li>
+		<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
+		<i class="fa fa-rss fa-lg"></i>
+	</a>
+</li>-->
+</ul>
 </div>
 <!-- sidebar.html end -->
