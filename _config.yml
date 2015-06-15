@@ -2,7 +2,7 @@
 
 paginate: 3 # pagination based on number of posts
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+exclude: ["README.md"][vendor] # files to exclude
 highlighter: pygments
 markdown: kramdown
 
@@ -24,7 +24,7 @@ author:
   linkedin:
   sitedescription: Hi, welcome to my Jekyll Blog.  This is where you can read about me rambling about my day and random things and the random, confused thoughts of a software engineer.
   bio: An aspiring software engineer.
-  disclaimer: DISCLAIMER - This site is still under construction.
+  disclaimer: DISCLAIMER - This site is still under heavy construction.
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
