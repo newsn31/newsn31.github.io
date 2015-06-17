@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogs are exhausting"
 date:   2015-06-17 09:55:49
-categories: jekyll update maintenance
+categories: jekyll update
 ---
 I updated the main navigation bar so that there are no 404's on the main page.  I updated some of the relevant social icons.  Added a disclaimer to warn people visiting the site about its current status.  Added some of the my previous work and a makeshift about me page.  Neither of these are styled.  Got the build to a passing state on Travis.ci.
 
