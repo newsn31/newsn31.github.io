@@ -2,11 +2,11 @@
 layout: post
 title:  "Blogs are exhausting"
 date:   2015-06-17 09:55:49
-categories: jekyll update
+categories: jekyll update maintenance
 ---
 I updated the main navigation bar so that there are no 404's on the main page.  I updated some of the relevant social icons.  Added a disclaimer to warn people visiting the site about its current status.  Added some of the my previous work and a makeshift about me page.  Neither of these are styled.  Got the build to a passing state on Travis.ci.
 
-I also restyled the mobile navigation to make it more consistent with the desktop navigation.  I tracked down the mixed content warning I was getting from a resource being loaded from http.  Now the site is completely HTTPS.  You can verify this by looking at the browsers' address bar.
+I also restyled the mobile navigation to make it more consistent with the desktop navigation.  I tracked down the mixed content warning I was getting from a resource being loaded from http.  Now the site secure.  You can verify this by looking at the browsers' address bar.
 
 <br><img class="img-responsive" src="https://newsn31.github.io/assets/media/SiteSecure.png"><br>
 
