@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "New Year, New Blog Update?"
+date:   2018-01-15 10:39:49
+categories: jekyll update
+---
+It's been a little over two years since I created this blog.  I just wanted to test out the capabilities of the Jekyll platform and see what I could do with Github's free webhosting.  It was also a place where I could showcase some of my work to recruiter and hiring managers.  Fast forward a couple years, I still don't know how frequently I will actually blog.  However, the website is outdated.  I've done a lot in the last couple years and I think this site should reflect that.  I will be updating the links and some of the portfolio.
+
+I'll also probably blog days that I'm updating (hopefully).
