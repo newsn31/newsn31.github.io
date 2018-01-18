@@ -2,7 +2,7 @@
 layout: post
 title:  "Unix Hater's Manual"
 date:   2015-06-20 09:55:49
-categories: jekyll update
+categories: unix
 ---
 I read this book about 3 years ago.  For some reason, I just decided to pick it up again.  Last time, I read it I was an avid Linux hater.  I didn't really understand how to use Linux and always felt I was Googling random stuff to put into my terminal whenever I had a problem.  Now, I use Linux about 70% of the time.  I kind of just eventually gravitated towards it as a result of the wealth of opensource projects available on the platform.  I've grown rather fond of the system.
 

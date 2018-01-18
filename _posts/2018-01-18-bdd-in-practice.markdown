@@ -2,7 +2,7 @@
 layout: post
 title:  "BDD in Practice"
 date:   2018-01-18 10:39:49
-categories: jekyll update
+categories: BDD
 ---
 There is an undeniable allure to the concept of Behaviorial Driven Design (BDD).  In theory, different organizational groups will be able to use a unified, English-like, language to bridge communication barriers.  Business analysts, developers, quality assurance and product can all work together using the same specification language and therefore eliminate misunderstandings between different factions of an organization.  
 
